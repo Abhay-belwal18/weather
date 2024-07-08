@@ -24,7 +24,7 @@ btn.addEventListener('click', function ()
 
         city.innerHTML = `Weather : <span>${nameval}<span>`
         temp.innerHTML = `Temperature: <span>${convertion(temperature)} C</span>`
-        description.innerHTML = `sky Conditions: span>${descrip}<span>`
+        description.innerHTML = `Sky Conditions: span>${descrip}<span>`
         wind.innerHTML = `Wind Speed: <span>${windspeed} km/h<span>`
     })
 
